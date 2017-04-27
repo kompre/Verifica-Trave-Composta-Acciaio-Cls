@@ -1,8 +1,0 @@
-%% Dati Iniziali
-% dati trave
-q = 2.31+1.48+5;    % [kN/m2] carico applicato (condizioni SLE)
-luce = 5.04; % [m] luce libera di inflessione
-momento = @(q,l) q*l^2/8;   % funzione di calcolo del momento in mezzeria per trave app-app
-
-% dati soletta
-hc = 120;   % [mm]
